@@ -1,0 +1,1 @@
+<label>核实状态 *<select name="verdict" required><option value="pending">待核实草稿</option>{% if d.permissions.can_confirm %}<option value="confirmed">已确认</option><option value="rejected">已否定</option>{% endif %}</select></label>

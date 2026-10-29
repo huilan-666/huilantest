@@ -1,0 +1,518 @@
+{
+  "type": "cases",
+  "source": "historical-demo-cases-20261028",
+  "source_label": "合成演示案例（非真实客户）",
+  "observed_on": "2026-10-28",
+  "coverage": "10家合成演示企业，非生产CRM、非真实业务数据；部门归属待演示核实",
+  "complete": true,
+  "cases": [
+    {
+      "source_key": "qiyu",
+      "phase": "prequote",
+      "outcome": "pending",
+      "priority_group": "resource",
+      "priority_order": 1,
+      "enterprise": "示例奇域公司",
+      "opportunity": "示例奇域公司演示商机",
+      "department": "",
+      "owner": "演示经办",
+      "migration": "unknown",
+      "priority_reason": "合成场景：按当前证据核实推进条件。",
+      "suggested_resource": "expert",
+      "suggested_resource_detail": "演示协助建议，未实际介入。",
+      "next_result": "核实决策意愿和下一步计划",
+      "evidence": [
+        {
+          "quote": "合成场景：客户提出业务问题，尚需核实当前意愿。",
+          "source_ref": "合成演示数据",
+          "occurred_on": "2026-10-22",
+          "product": "演示产品",
+          "related_opportunity": "示例奇域公司演示商机",
+          "recorded_on": "",
+          "occurred_at": "",
+          "recorded_at": ""
+        }
+      ],
+      "blockers": [
+        {
+          "code": "price",
+          "detail": "合成候选原因，待核实。",
+          "evidence": "合成演示记录"
+        }
+      ],
+      "kp": {
+        "identity": "unknown",
+        "phone": "unknown",
+        "wechat": "unknown",
+        "reachable": "unknown",
+        "willing": "unknown"
+      },
+      "plan": {},
+      "forecast": {},
+      "contradictions": [
+        "演示证据不构成真实客户承诺"
+      ]
+    },
+    {
+      "source_key": "jc",
+      "phase": "prequote",
+      "outcome": "pending",
+      "priority_group": "resource",
+      "priority_order": 2,
+      "enterprise": "示例咨询公司",
+      "opportunity": "示例咨询公司演示商机",
+      "department": "",
+      "owner": "演示经办",
+      "migration": "unknown",
+      "priority_reason": "合成场景：按当前证据核实推进条件。",
+      "suggested_resource": "management",
+      "suggested_resource_detail": "演示协助建议，未实际介入。",
+      "next_result": "核实决策意愿和下一步计划",
+      "evidence": [
+        {
+          "quote": "合成场景：客户提出业务问题，尚需核实当前意愿。",
+          "source_ref": "合成演示数据",
+          "occurred_on": "2026-10-22",
+          "product": "演示产品",
+          "related_opportunity": "示例咨询公司演示商机",
+          "recorded_on": "",
+          "occurred_at": "",
+          "recorded_at": ""
+        }
+      ],
+      "blockers": [
+        {
+          "code": "contract",
+          "detail": "合成候选原因，待核实。",
+          "evidence": "合成演示记录"
+        },
+        {
+          "code": "compliance",
+          "detail": "合成候选原因，待核实。",
+          "evidence": "合成演示记录"
+        },
+        {
+          "code": "unknown",
+          "detail": "合成候选原因，待核实。",
+          "evidence": "合成演示记录"
+        }
+      ],
+      "kp": {
+        "identity": "unknown",
+        "phone": "unknown",
+        "wechat": "unknown",
+        "reachable": "unknown",
+        "willing": "unknown"
+      },
+      "plan": {},
+      "forecast": {},
+      "contradictions": [
+        "演示证据不构成真实客户承诺"
+      ]
+    },
+    {
+      "source_key": "kaishi",
+      "phase": "prequote",
+      "outcome": "pending",
+      "priority_group": "decision",
+      "priority_order": 3,
+      "enterprise": "示例实业公司",
+      "opportunity": "示例实业公司演示商机",
+      "department": "",
+      "owner": "演示经办",
+      "migration": "unknown",
+      "priority_reason": "合成场景：按当前证据核实推进条件。",
+      "suggested_resource": "kp",
+      "suggested_resource_detail": "演示协助建议，未实际介入。",
+      "next_result": "核实决策意愿和下一步计划",
+      "evidence": [
+        {
+          "quote": "合成场景：客户提出业务问题，尚需核实当前意愿。",
+          "source_ref": "合成演示数据",
+          "occurred_on": "2026-10-22",
+          "product": "演示产品",
+          "related_opportunity": "示例实业公司演示商机",
+          "recorded_on": "",
+          "occurred_at": "",
+          "recorded_at": ""
+        }
+      ],
+      "blockers": [
+        {
+          "code": "price",
+          "detail": "合成候选原因，待核实。",
+          "evidence": "合成演示记录"
+        },
+        {
+          "code": "kp_access",
+          "detail": "合成候选原因，待核实。",
+          "evidence": "合成演示记录"
+        },
+        {
+          "code": "unknown",
+          "detail": "合成候选原因，待核实。",
+          "evidence": "合成演示记录"
+        }
+      ],
+      "kp": {
+        "identity": "unknown",
+        "phone": "unknown",
+        "wechat": "unknown",
+        "reachable": "unknown",
+        "willing": "unknown"
+      },
+      "plan": {},
+      "forecast": {},
+      "contradictions": [
+        "演示证据不构成真实客户承诺"
+      ]
+    },
+    {
+      "source_key": "zhancheng",
+      "phase": "prequote",
+      "outcome": "pending",
+      "priority_group": "decision",
+      "priority_order": 4,
+      "enterprise": "示例文化公司",
+      "opportunity": "示例文化公司演示商机",
+      "department": "",
+      "owner": "演示经办",
+      "migration": "unknown",
+      "priority_reason": "合成场景：按当前证据核实推进条件。",
+      "suggested_resource": "management",
+      "suggested_resource_detail": "演示协助建议，未实际介入。",
+      "next_result": "核实决策意愿和下一步计划",
+      "evidence": [
+        {
+          "quote": "合成场景：客户提出业务问题，尚需核实当前意愿。",
+          "source_ref": "合成演示数据",
+          "occurred_on": "2026-10-22",
+          "product": "演示产品",
+          "related_opportunity": "示例文化公司演示商机",
+          "recorded_on": "",
+          "occurred_at": "",
+          "recorded_at": ""
+        }
+      ],
+      "blockers": [
+        {
+          "code": "unknown",
+          "detail": "合成候选原因，待核实。",
+          "evidence": "合成演示记录"
+        }
+      ],
+      "kp": {
+        "identity": "unknown",
+        "phone": "unknown",
+        "wechat": "unknown",
+        "reachable": "unknown",
+        "willing": "unknown"
+      },
+      "plan": {},
+      "forecast": {},
+      "contradictions": [
+        "演示证据不构成真实客户承诺"
+      ]
+    },
+    {
+      "source_key": "xinding",
+      "phase": "prequote",
+      "outcome": "pending",
+      "priority_group": "future",
+      "priority_order": 5,
+      "enterprise": "示例能源公司",
+      "opportunity": "示例能源公司演示商机",
+      "department": "",
+      "owner": "演示经办",
+      "migration": "unknown",
+      "priority_reason": "合成场景：按当前证据核实推进条件。",
+      "suggested_resource": "business",
+      "suggested_resource_detail": "演示协助建议，未实际介入。",
+      "next_result": "核实决策意愿和下一步计划",
+      "evidence": [
+        {
+          "quote": "合成场景：客户提出业务问题，尚需核实当前意愿。",
+          "source_ref": "合成演示数据",
+          "occurred_on": "2026-10-22",
+          "product": "演示产品",
+          "related_opportunity": "示例能源公司演示商机",
+          "recorded_on": "",
+          "occurred_at": "",
+          "recorded_at": ""
+        }
+      ],
+      "blockers": [
+        {
+          "code": "unknown",
+          "detail": "合成候选原因，待核实。",
+          "evidence": "合成演示记录"
+        }
+      ],
+      "kp": {
+        "identity": "unknown",
+        "phone": "unknown",
+        "wechat": "unknown",
+        "reachable": "unknown",
+        "willing": "unknown"
+      },
+      "plan": {},
+      "forecast": {},
+      "contradictions": [
+        "演示证据不构成真实客户承诺"
+      ],
+      "future_quote": "合成场景：下个月可能有需求",
+      "future_on": "2026-10-22",
+      "next_review_on": "2026-11-02"
+    },
+    {
+      "source_key": "oufuli",
+      "phase": "prequote",
+      "outcome": "pending",
+      "priority_group": "future",
+      "priority_order": 6,
+      "enterprise": "示例科技公司",
+      "opportunity": "示例科技公司演示商机",
+      "department": "",
+      "owner": "演示经办",
+      "migration": "unknown",
+      "priority_reason": "合成场景：按当前证据核实推进条件。",
+      "suggested_resource": "business",
+      "suggested_resource_detail": "演示协助建议，未实际介入。",
+      "next_result": "核实决策意愿和下一步计划",
+      "evidence": [
+        {
+          "quote": "合成场景：客户提出业务问题，尚需核实当前意愿。",
+          "source_ref": "合成演示数据",
+          "occurred_on": "2026-10-22",
+          "product": "演示产品",
+          "related_opportunity": "示例科技公司演示商机",
+          "recorded_on": "",
+          "occurred_at": "",
+          "recorded_at": ""
+        }
+      ],
+      "blockers": [
+        {
+          "code": "demand",
+          "detail": "合成候选原因，待核实。",
+          "evidence": "合成演示记录"
+        },
+        {
+          "code": "unknown",
+          "detail": "合成候选原因，待核实。",
+          "evidence": "合成演示记录"
+        }
+      ],
+      "kp": {
+        "identity": "unknown",
+        "phone": "unknown",
+        "wechat": "unknown",
+        "reachable": "unknown",
+        "willing": "unknown"
+      },
+      "plan": {},
+      "forecast": {},
+      "contradictions": [
+        "演示证据不构成真实客户承诺"
+      ],
+      "future_quote": "合成场景：下个月可能有需求",
+      "future_on": "2026-10-22",
+      "next_review_on": "2026-11-02"
+    },
+    {
+      "source_key": "koudai",
+      "phase": "prequote",
+      "outcome": "pending",
+      "priority_group": "clarify",
+      "priority_order": 7,
+      "enterprise": "示例贸易公司",
+      "opportunity": "示例贸易公司演示商机",
+      "department": "",
+      "owner": "演示经办",
+      "migration": "unknown",
+      "priority_reason": "合成场景：按当前证据核实推进条件。",
+      "suggested_resource": "business",
+      "suggested_resource_detail": "演示协助建议，未实际介入。",
+      "next_result": "核实决策意愿和下一步计划",
+      "evidence": [
+        {
+          "quote": "合成场景：客户提出业务问题，尚需核实当前意愿。",
+          "source_ref": "合成演示数据",
+          "occurred_on": "2026-10-22",
+          "product": "演示产品",
+          "related_opportunity": "示例贸易公司演示商机",
+          "recorded_on": "",
+          "occurred_at": "",
+          "recorded_at": ""
+        }
+      ],
+      "blockers": [
+        {
+          "code": "contract",
+          "detail": "合成候选原因，待核实。",
+          "evidence": "合成演示记录"
+        },
+        {
+          "code": "unknown",
+          "detail": "合成候选原因，待核实。",
+          "evidence": "合成演示记录"
+        }
+      ],
+      "kp": {
+        "identity": "unknown",
+        "phone": "unknown",
+        "wechat": "unknown",
+        "reachable": "unknown",
+        "willing": "unknown"
+      },
+      "plan": {},
+      "forecast": {},
+      "contradictions": [
+        "演示证据不构成真实客户承诺"
+      ]
+    },
+    {
+      "source_key": "anlan",
+      "phase": "registered",
+      "outcome": "pending",
+      "priority_group": "feedback",
+      "priority_order": 8,
+      "enterprise": "示例海运公司",
+      "opportunity": "示例海运公司演示商机",
+      "department": "",
+      "owner": "演示经办",
+      "migration": "unknown",
+      "priority_reason": "合成场景：按当前证据核实推进条件。",
+      "suggested_resource": "business",
+      "suggested_resource_detail": "演示协助建议，未实际介入。",
+      "next_result": "核实决策意愿和下一步计划",
+      "evidence": [
+        {
+          "quote": "合成场景：客户提出业务问题，尚需核实当前意愿。",
+          "source_ref": "合成演示数据",
+          "occurred_on": "2026-10-22",
+          "product": "演示产品",
+          "related_opportunity": "示例海运公司演示商机",
+          "recorded_on": "",
+          "occurred_at": "",
+          "recorded_at": ""
+        }
+      ],
+      "blockers": [
+        {
+          "code": "unknown",
+          "detail": "合成候选原因，待核实。",
+          "evidence": "合成演示记录"
+        }
+      ],
+      "kp": {
+        "identity": "unknown",
+        "phone": "unknown",
+        "wechat": "unknown",
+        "reachable": "unknown",
+        "willing": "unknown"
+      },
+      "plan": {},
+      "forecast": {},
+      "contradictions": [
+        "演示证据不构成真实客户承诺"
+      ],
+      "registered_on": "2026-10-12",
+      "registered_evidence": "合成注册日期，仅用于演示"
+    },
+    {
+      "source_key": "wendang",
+      "phase": "registered",
+      "outcome": "pending",
+      "priority_group": "feedback",
+      "priority_order": 9,
+      "enterprise": "示例物流公司",
+      "opportunity": "示例物流公司演示商机",
+      "department": "",
+      "owner": "演示经办",
+      "migration": "unknown",
+      "priority_reason": "合成场景：按当前证据核实推进条件。",
+      "suggested_resource": "business",
+      "suggested_resource_detail": "演示协助建议，未实际介入。",
+      "next_result": "核实决策意愿和下一步计划",
+      "evidence": [
+        {
+          "quote": "合成场景：客户提出业务问题，尚需核实当前意愿。",
+          "source_ref": "合成演示数据",
+          "occurred_on": "2026-10-22",
+          "product": "演示产品",
+          "related_opportunity": "示例物流公司演示商机",
+          "recorded_on": "",
+          "occurred_at": "",
+          "recorded_at": ""
+        }
+      ],
+      "blockers": [
+        {
+          "code": "unknown",
+          "detail": "合成候选原因，待核实。",
+          "evidence": "合成演示记录"
+        }
+      ],
+      "kp": {
+        "identity": "unknown",
+        "phone": "unknown",
+        "wechat": "unknown",
+        "reachable": "unknown",
+        "willing": "unknown"
+      },
+      "plan": {},
+      "forecast": {},
+      "contradictions": [
+        "演示证据不构成真实客户承诺"
+      ],
+      "registered_on": "2026-10-13",
+      "registered_evidence": "合成注册日期，仅用于演示"
+    },
+    {
+      "source_key": "sinofloc",
+      "phase": "registered",
+      "outcome": "crm_traded",
+      "priority_group": "done",
+      "priority_order": 10,
+      "enterprise": "示例化工公司",
+      "opportunity": "示例化工公司演示商机",
+      "department": "",
+      "owner": "演示经办",
+      "migration": "unknown",
+      "priority_reason": "合成场景：按当前证据核实推进条件。",
+      "suggested_resource": "business",
+      "suggested_resource_detail": "演示协助建议，未实际介入。",
+      "next_result": "核实决策意愿和下一步计划",
+      "evidence": [
+        {
+          "quote": "合成场景：客户提出业务问题，尚需核实当前意愿。",
+          "source_ref": "合成演示数据",
+          "occurred_on": "2026-10-22",
+          "product": "演示产品",
+          "related_opportunity": "示例化工公司演示商机",
+          "recorded_on": "",
+          "occurred_at": "",
+          "recorded_at": ""
+        }
+      ],
+      "blockers": [],
+      "kp": {
+        "identity": "unknown",
+        "phone": "unknown",
+        "wechat": "unknown",
+        "reachable": "unknown",
+        "willing": "unknown"
+      },
+      "plan": {},
+      "forecast": {},
+      "contradictions": [
+        "演示证据不构成真实客户承诺"
+      ],
+      "registered_on": "2026-10-22",
+      "registered_evidence": "合成注册日期，仅用于演示",
+      "outcome_on": "2026-10-28",
+      "outcome_evidence": "合成交易观察，不是真实业务结果"
+    }
+  ]
+}
