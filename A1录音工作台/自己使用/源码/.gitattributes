@@ -1,0 +1,3 @@
+packaging/licenses/** -text
+app/vendor/LICENSE -text
+app/web/LICENSE -text

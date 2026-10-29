@@ -1,0 +1,252 @@
+{
+  "assets": [
+    {
+      "path": "models/recognizer.json",
+      "sha256": "f0063cce5d9adebcb35e588569f0f66a4117cf6de0e086e300ac9e33f1a12f66",
+      "license": "FireRedASR2-Apache-2.0.txt"
+    },
+    {
+      "path": "models/fire-red-asr2-ctc/model.int8.onnx",
+      "sha256": "ca3dbabd82170110cc0b343c2890866d449984bc9cd92b9a18371ff80a81bb99",
+      "license": "FireRedASR2-Apache-2.0.txt"
+    },
+    {
+      "path": "models/fire-red-asr2-ctc/tokens.txt",
+      "sha256": "1bc613de2112d257e61a349c3e72d1b1a9cf19c33d3ca954197ad2171e5ea07b",
+      "license": "FireRedASR2-Apache-2.0.txt"
+    },
+    {
+      "path": "models/vad/silero_vad.onnx",
+      "sha256": "9e2449e1087496d8d4caba907f23e0bd3f78d91fa552479bb9c23ac09cbb1fd6",
+      "license": "silero-vad-MIT.txt"
+    },
+    {
+      "path": "models/diarization/segmentation.onnx",
+      "sha256": "220ad67ca923bef2fa91f2390c786097bf305bceb5e261d4af67b38e938e1079",
+      "license": "segmentation-model.txt"
+    },
+    {
+      "path": "models/diarization/embedding.onnx",
+      "sha256": "1a331345f04805badbb495c775a6ddffcdd1a732567d5ec8b3d5749e3c7a5e4b",
+      "license": "embedding-model.txt"
+    },
+    {
+      "path": "runtime/audio/opusdec.exe",
+      "sha256": "ae3094a4085c18a0825579bd65b389ccf43bf81f344b851072bb65f7fd44132c",
+      "license": "opus-tools-LICENSE.txt"
+    }
+  ],
+  "model_assets": {
+    "models/recognizer.json": "f0063cce5d9adebcb35e588569f0f66a4117cf6de0e086e300ac9e33f1a12f66",
+    "models/fire-red-asr2-ctc/model.int8.onnx": "ca3dbabd82170110cc0b343c2890866d449984bc9cd92b9a18371ff80a81bb99",
+    "models/fire-red-asr2-ctc/tokens.txt": "1bc613de2112d257e61a349c3e72d1b1a9cf19c33d3ca954197ad2171e5ea07b",
+    "models/vad/silero_vad.onnx": "9e2449e1087496d8d4caba907f23e0bd3f78d91fa552479bb9c23ac09cbb1fd6",
+    "models/diarization/segmentation.onnx": "220ad67ca923bef2fa91f2390c786097bf305bceb5e261d4af67b38e938e1079",
+    "models/diarization/embedding.onnx": "1a331345f04805badbb495c775a6ddffcdd1a732567d5ec8b3d5749e3c7a5e4b"
+  },
+  "onnxruntime_version": "1.28.2",
+  "model_hash_source": "FireRed官方压缩包SHA256已核验；包内文件、Silero VAD及分人模型的SHA256为下载解包后本地计算，分别记录来源。",
+  "licenses": [
+    {
+      "file": "whisper.cpp-MIT.txt",
+      "url": "https://github.com/ggml-org/whisper.cpp/blob/master/LICENSE",
+      "git_blob": null,
+      "bytes": 1078,
+      "sha256": "94f29bbed6a22c35b992c5c6ebf0e7c92f13b836b90f36f461c9cf2f0f1d010d"
+    },
+    {
+      "file": "silero-vad-MIT.txt",
+      "url": "https://github.com/snakers4/silero-vad/blob/master/LICENSE",
+      "git_blob": null,
+      "bytes": 1075,
+      "sha256": "2e63e9a38b6e8fc0c7bc37ce174caca1862870856c6daf5697cfb785e925520b"
+    },
+    {
+      "file": "SDL2-zlib.txt",
+      "url": "https://github.com/libsdl-org/SDL/blob/SDL2/LICENSE.txt",
+      "git_blob": null,
+      "bytes": 884,
+      "sha256": "1c040b8271b37e5076359f8fd54240e371114112924d2df81ef87c7d6a1dfdfd"
+    },
+    {
+      "file": "OpenAI-Whisper-MIT.txt",
+      "url": "https://github.com/openai/whisper/blob/main/LICENSE",
+      "git_blob": null,
+      "bytes": 1063,
+      "sha256": "b5d65a59060e68c4ff940e1eddfa6f94b2d68fdf58ed7f4dd57721c997e35e9d"
+    },
+    {
+      "file": "sherpa-onnx-Apache-2.0.txt",
+      "url": "https://github.com/k2-fsa/sherpa-onnx/blob/master/LICENSE",
+      "git_blob": null,
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "file": "embedding-model.txt",
+      "url": "https://github.com/modelscope/3D-Speaker/blob/main/LICENSE",
+      "git_blob": null,
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "file": "opus-1.3-COPYING.txt",
+      "url": "https://github.com/xiph/opus/blob/v1.3/COPYING",
+      "git_blob": null,
+      "bytes": 1928,
+      "sha256": "8338ce8d922bb4416ce3dd1e5680173332435e3f0755007ac7801ccd674fe682"
+    },
+    {
+      "file": "opusfile-0.11-COPYING.txt",
+      "url": "https://github.com/xiph/opusfile/blob/v0.11/COPYING",
+      "git_blob": null,
+      "bytes": 1487,
+      "sha256": "0267ae795ab744c4e0f9c45e249440fdf2e75dac8c804f36066b28649bf74aaf"
+    },
+    {
+      "file": "ogg-1.3.3-COPYING.txt",
+      "url": "https://github.com/xiph/ogg/blob/v1.3.3/COPYING",
+      "git_blob": null,
+      "bytes": 1466,
+      "sha256": "d2ab5758336489da61c12cc5bb757da5339c4ae9001f9bb0562b4370249af814"
+    },
+    {
+      "file": "speexdsp-COPYING.txt",
+      "url": "https://github.com/xiph/speexdsp/blob/SpeexDSP-1.2.0/COPYING",
+      "git_blob": null,
+      "bytes": 1774,
+      "sha256": "671bb5d8fd3c6b05a2e831d90f978ac27965c92bd8ea6d16b3df76e3440c0e9f"
+    },
+    {
+      "file": "onnxruntime-MIT.txt",
+      "url": "https://github.com/microsoft/onnxruntime/blob/v1.28.2/LICENSE",
+      "git_blob": null,
+      "bytes": 1073,
+      "sha256": "2f07c72751aed99790b8a4869cf2311df85a860b22ded05fa22803587a48922c"
+    },
+    {
+      "file": "onnxruntime-ThirdPartyNotices.txt",
+      "url": "https://github.com/microsoft/onnxruntime/blob/v1.28.2/ThirdPartyNotices.txt",
+      "git_blob": null,
+      "bytes": 325054,
+      "sha256": "0e07b95f3a8d6230037707c5c4a2b554d12c4cb67369669ac255635528ffcee2"
+    },
+    {
+      "file": "React-19.2.8-MIT.txt",
+      "source": "app\\web\\node_modules\\react\\LICENSE",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "file": "ReactDOM-19.2.8-MIT.txt",
+      "source": "app\\web\\node_modules\\react-dom\\LICENSE",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "file": "Scheduler-0.27.0-MIT.txt",
+      "source": "app\\web\\node_modules\\.pnpm\\scheduler@0.27.0\\node_modules\\scheduler\\LICENSE",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "file": "segmentation-model.txt",
+      "source": "models\\diarization\\sherpa-onnx-pyannote-segmentation-3-0.tar.bz2",
+      "archive_sha256": "24615ee884c897d9d2ba09bb4d30da6bb1b15e685065962db5b02e76e4996488",
+      "member": "sherpa-onnx-pyannote-segmentation-3-0/LICENSE",
+      "sha256": "14d7016ad68e7394d6e6b78d96cc2ae431c905287b89674cfdf021e79e62b8ba"
+    },
+    {
+      "file": "ERes2Net-original-model-card.md",
+      "url": "https://modelscope.cn/api/v1/models/iic/speech_eres2net_base_sv_zh-cn_3dspeaker_16k/repo?Revision=master&FilePath=README.md",
+      "sha256": "913468d0b29dae47069de8258c71ca6627d096dbcfafc752a81493e2d18620d5"
+    },
+    {
+      "file": "FireRedASR2-AED-model-card.md",
+      "url": "https://huggingface.co/FireRedTeam/FireRedASR2-AED/raw/2304afed56eacfee6256dee5937ed22ffa0b64ec/README.md",
+      "hf_model_revision": "2304afed56eacfee6256dee5937ed22ffa0b64ec",
+      "license_source_git_revision": "4e7d9aaf4482a47cec1724807026b9b151926eb5",
+      "bytes": 3137,
+      "sha256": "53fedc7d3cb8ae87845862d4d5fb94ba32a4f320cbe46393c93b05dd3d1c2e22",
+      "selection_status": "本次入包资源；转写为可校对稿，用户可选回听校对，不声称逐字无错",
+      "model_asset": {
+        "id": 362637452,
+        "name": "sherpa-onnx-fire-red-asr2-ctc-zh_en-int8-2026-02-25.tar.bz2",
+        "bytes": 520516278,
+        "digest": "sha256:1da8b737ecc5e29f36759a4460c754863e7c919a4ba325aea187331fbfc83274",
+        "url": "https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/sherpa-onnx-fire-red-asr2-ctc-zh_en-int8-2026-02-25.tar.bz2"
+      },
+      "license_basis": "官方权重仓模型卡明确声明Apache-2.0，非从代码许可证推定权重许可。"
+    },
+    {
+      "file": "FireRedASR2-Apache-2.0.txt",
+      "url": "https://raw.githubusercontent.com/FireRedTeam/FireRedASR2S/4e7d9aaf4482a47cec1724807026b9b151926eb5/LICENSE",
+      "hf_model_revision": "2304afed56eacfee6256dee5937ed22ffa0b64ec",
+      "license_source_git_revision": "4e7d9aaf4482a47cec1724807026b9b151926eb5",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "selection_status": "本次入包资源；转写为可校对稿，用户可选回听校对，不声称逐字无错",
+      "license_text_role": "模型卡指定的标准Apache-2.0全文；权重许可依据另见固定模型卡。"
+    },
+    {
+      "file": "FireRedASR2-来源与转换说明.md",
+      "source": "本任务依据固定官方模型卡、Apache2文本和官方release元数据整理",
+      "bytes": 2683,
+      "sha256": "05faf85d50ac5e6c2818280dcef3c37207c84756285358cf6fa827076c494d43",
+      "selection_status": "本次入包资源；转写为可校对稿，用户可选回听校对，不声称逐字无错"
+    }
+  ],
+  "scope": "模型权重许可与运行库代码许可分别核对；Git文件blob/hash是许可来源记录，不宣称重现二进制构建。",
+  "historical_assets": [
+    {
+      "path": "runtime/whisper/whisper-cli.exe",
+      "sha256": "568cde276cbb0a57c0e98dc69df8ca57e0a44ed1d1e1bd9965c85c62da5ece68",
+      "hardlink_requested": false
+    },
+    {
+      "path": "runtime/whisper/SDL2.dll",
+      "sha256": "de23db1694a3c7a4a735e7ecd3d214b2023cc2267922c6c35d30c7fc7370d677",
+      "hardlink_requested": false
+    },
+    {
+      "path": "runtime/whisper/ggml-silero-v6.2.0.bin",
+      "sha256": "2aa269b785eeb53a82983a20501ddf7c1d9c48e33ab63a41391ac6c9f7fb6987",
+      "hardlink_requested": false
+    },
+    {
+      "path": "models/whisper/ggml-small.bin",
+      "sha256": "1be3a9b2063867b937e64e2ec7483364a79917e157fa98c5d94b5c1fffea987b",
+      "hardlink_requested": true
+    }
+  ],
+  "vad_model": {
+    "official_source": "https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/silero_vad.onnx",
+    "bytes": 643854,
+    "sha256_computed_locally": "9e2449e1087496d8d4caba907f23e0bd3f78d91fa552479bb9c23ac09cbb1fd6",
+    "upstream_digest": null,
+    "license": "MIT",
+    "version": "canonical sherpa release asset",
+    "documentation": "https://k2-fsa.github.io/sherpa/onnx/FireRedAsr/pretrained.html"
+  },
+  "fire_red_model": {
+    "source": "https://api.github.com/repos/k2-fsa/sherpa-onnx/releases/assets/362637452",
+    "archive_bytes": 520516278,
+    "official_sha256": "1da8b737ecc5e29f36759a4460c754863e7c919a4ba325aea187331fbfc83274",
+    "verified": true,
+    "files": [
+      {
+        "name": "README.md",
+        "bytes": 190,
+        "sha256": "d7793324f173947963702fb79084a900a34afaf8208ebbed9e93adb3f8dfdf95"
+      },
+      {
+        "name": "model.int8.onnx",
+        "bytes": 775861420,
+        "sha256": "ca3dbabd82170110cc0b343c2890866d449984bc9cd92b9a18371ff80a81bb99"
+      },
+      {
+        "name": "tokens.txt",
+        "bytes": 79172,
+        "sha256": "1bc613de2112d257e61a349c3e72d1b1a9cf19c33d3ca954197ad2171e5ea07b"
+      }
+    ],
+    "elapsed_seconds": 264.3130000000001
+  }
+}

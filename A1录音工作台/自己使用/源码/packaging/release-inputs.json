@@ -1,0 +1,98 @@
+{
+  "schema": 1,
+  "name": "A1Recorder",
+  "assets": [
+    {
+      "source": "models/recognizer.json",
+      "destination": "models/recognizer.json",
+      "sha256": "f0063cce5d9adebcb35e588569f0f66a4117cf6de0e086e300ac9e33f1a12f66",
+      "license": "FireRedASR2-Apache-2.0.txt"
+    },
+    {
+      "source": "models/fire-red-asr2-ctc/model.int8.onnx",
+      "destination": "models/fire-red-asr2-ctc/model.int8.onnx",
+      "sha256": "ca3dbabd82170110cc0b343c2890866d449984bc9cd92b9a18371ff80a81bb99",
+      "license": "FireRedASR2-Apache-2.0.txt"
+    },
+    {
+      "source": "models/fire-red-asr2-ctc/tokens.txt",
+      "destination": "models/fire-red-asr2-ctc/tokens.txt",
+      "sha256": "1bc613de2112d257e61a349c3e72d1b1a9cf19c33d3ca954197ad2171e5ea07b",
+      "license": "FireRedASR2-Apache-2.0.txt"
+    },
+    {
+      "source": "models/vad/silero_vad.onnx",
+      "destination": "models/vad/silero_vad.onnx",
+      "sha256": "9e2449e1087496d8d4caba907f23e0bd3f78d91fa552479bb9c23ac09cbb1fd6",
+      "license": "silero-vad-MIT.txt"
+    },
+    {
+      "source": "models/diarization/segmentation.onnx",
+      "destination": "models/diarization/segmentation.onnx",
+      "sha256": "220ad67ca923bef2fa91f2390c786097bf305bceb5e261d4af67b38e938e1079",
+      "license": "segmentation-model.txt"
+    },
+    {
+      "source": "models/diarization/embedding.onnx",
+      "destination": "models/diarization/embedding.onnx",
+      "sha256": "1a331345f04805badbb495c775a6ddffcdd1a732567d5ec8b3d5749e3c7a5e4b",
+      "license": "embedding-model.txt"
+    }
+  ],
+  "audio_assets": [
+    {
+      "source": "runtime/audio/opusdec.exe",
+      "destination": "runtime/audio/opusdec.exe",
+      "sha256": "ae3094a4085c18a0825579bd65b389ccf43bf81f344b851072bb65f7fd44132c",
+      "license": "opus-tools-LICENSE.txt",
+      "redistribution": "notice-only"
+    }
+  ],
+  "runtime_distributions": [
+    "bleak",
+    "cryptography",
+    "cffi",
+    "pycparser",
+    "typing_extensions",
+    "winrt-runtime",
+    "winrt-Windows.Devices.Bluetooth",
+    "winrt-Windows.Devices.Bluetooth.Advertisement",
+    "winrt-Windows.Devices.Bluetooth.GenericAttributeProfile",
+    "winrt-Windows.Devices.Enumeration",
+    "winrt-Windows.Devices.Radios",
+    "winrt-Windows.Foundation",
+    "winrt-Windows.Foundation.Collections",
+    "winrt-Windows.Storage.Streams",
+    "numpy",
+    "sherpa-onnx",
+    "sherpa-onnx-core"
+  ],
+  "runtime_license_overrides": {
+    "sherpa-onnx-core": [
+      "sherpa-onnx-Apache-2.0.txt",
+      "onnxruntime-MIT.txt",
+      "onnxruntime-ThirdPartyNotices.txt"
+    ]
+  },
+  "internal_top_level": [
+    "web",
+    "base_library.zip",
+    "python3.dll",
+    "python312.dll",
+    "*.pyd",
+    "*.dll",
+    "bleak",
+    "bleak-*.dist-info",
+    "winrt",
+    "winrt*.dist-info",
+    "cryptography",
+    "cryptography-*.dist-info",
+    "numpy",
+    "numpy.libs",
+    "numpy-*.dist-info",
+    "sherpa_onnx",
+    "sherpa_onnx-*.dist-info",
+    "importlib_metadata*",
+    "zipp*"
+  ]
+}
